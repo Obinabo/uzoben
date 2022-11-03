@@ -242,7 +242,7 @@ input{
     justify-content: center;
     padding: 10px 30px;
     text-align: left;
-    background-image: url(../img/damien-tupinier-OFEvgVfr6iU-unsplash.jpg);
+    background-image: url(../img/damien-tupinier-OFEvgVfr6iU-unsplash.png);
     background-size: cover;
 }
 #banner .left{
@@ -275,7 +275,6 @@ input{
     font-size: 1em;
     line-height: 200%;
     margin: 20px auto;
-    color: var(--purple);
 }
 
 /******* Services ***********/
@@ -620,10 +619,24 @@ input{
     right: 0px;
     top:200px;
     z-index: 5;
-}
-.night img{
     width: 50px;
     height: 50px;
+    background-image: url(../img/moon.png);
+    background-size: 100%;
+}
+.day{
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0px;
+    top:200px;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/brightness.png);
+    background-size: 100%;
 }
 
 /******** Smaller Screens*********/
@@ -667,7 +680,7 @@ input{
     }
     #preloader .load-item{
         top: 40%;
-        left: 25%;
+        left: 22%;
         font-size: 3em;
     }
 }

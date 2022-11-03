@@ -8,8 +8,10 @@ $(document).ready(function(){
         singleItem : true, 
         autoPlay: true,
     });
-    $('.night img').click(function(){
+    $('p.night').click(function(){
+        $(this).toggleClass('day');
         $('body').toggleClass('body2');
+
     })
     window.onload = function(){
         $('#preloader').hide();
